@@ -6,7 +6,7 @@ const help = {
     utils.log('LaunchRequest', this.event);
     const { devices } = this.attributes;
     const hasDevices = devices && devices.length > 0;
-    let speech = 'Welcome to MyQ Home. ';
+    let speech = 'Welcome to Tiki\'s Home. ';
     if (hasDevices) {
       speech += 'Ask about or change the state of a device.';
     } else {
